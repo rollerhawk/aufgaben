@@ -12,11 +12,9 @@ public class App
     public static void main( String[] args )
     {
         Auto auto = new Auto();
-
-        Random random = new Random();
         
-         Console cnsl = System.console(); 
-
+        Console cnsl = System.console(); 
+        
         while(true){           
             try{
                 String manualString = cnsl.readLine();            
